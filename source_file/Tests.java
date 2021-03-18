@@ -3,7 +3,7 @@ package neuralNetwork;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class UnitTest {
+public class Tests {
 	// THIS CLASS IS JUST FOR TESTING PURPOSES
 	// IT'S NOT PART OF THE FINAL PROGRAM
 	public static void main(String[] args) {
