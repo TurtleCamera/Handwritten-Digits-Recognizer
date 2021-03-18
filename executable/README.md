@@ -28,6 +28,7 @@ In terms of selection, it is not feasible to display all input nodes as training
 On the top left corner of the screen, the cost function will be displayed as well as the average cost function of the current image group. For reference, the cost will display red if the value is over 0.75, yellow if the value is over 0.1, and green if the value is equal to or below 0.1. The current image as well as the last 9 processed images will be displayed on the top right corner and the left of the screen respectively. To tell where the image group is, the 10th image of the group will be highlighted with a green box. One small thing to note is that the partial derivatives of the cost function with respect to the bias values get replaced with images guessed correctly and accuracy during the testing phase.  
 
 To enter the testing phase, the user must first complete the network's training session (load all training data). Then the user may press T to enter testing phase in which backpropogation and partial derivatives are no longer calculated. At the end of the testing session, the user may also press W to print a file with the following format:  
+
 Total testing images (integer)  
 Number of images guessed correctly (integer)  
 Accuracy percentage (float)  
