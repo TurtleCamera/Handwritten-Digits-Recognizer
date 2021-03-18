@@ -1,0 +1,1 @@
+java -Xmx32G -jar Supervised_Handwriting_Reader.jar
