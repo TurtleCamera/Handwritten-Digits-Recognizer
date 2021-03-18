@@ -10,6 +10,7 @@ Upon opening, the neural network will be initialized with random weights and bia
 
 ### Controls
 | Action and desciption | Key |
+---------------------------------
 | Toggle weight restriction (limits the weights of the neural network to the range [-1, 1], but it is recommended that this option be kept constant throughout the training session).                            | B |
 | Change layers                        | Left and right arrow keys |
 | Change nodes within a layer          | Up and down arrow keys |
